@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Localhost Site URLs</title>
+        <link>http://localhost:8000/</link>
+        <description>URLs of localhost site pages</description>
+        <atom:link href="http://localhost:8000/sitemap.xml" rel="self" type="application/rss+xml" />
+        
+        <!-- URLs from sitemap -->
+        <item>
+            <title>http://localhost:8000/1.html</title>
+            <link>http://localhost:8000/1.html</link>
+        </item>
+        <item>
+            <title>http://localhost:8000/2.html</title>
+            <link>http://localhost:8000/2.html</link>
+        </item>
+        <item>
+            <title>http://localhost:8000/3.html</title>
+            <link>http://localhost:8000/3.html</link>
+        </item>
+        <item>
+            <title>http://localhost:8000/4.html</title>
+            <link>http://localhost:8000/4.html</link>
+        </item>
+        <item>
+            <title>http://localhost:8000/5.html</title>
+            <link>http://localhost:8000/5.html</link>
+        </item>
+    </channel>
+</rss>

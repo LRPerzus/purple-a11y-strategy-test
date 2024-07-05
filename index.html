@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample HTML Document</title>
+
+    <script>
+      function navigateCurrentPageTo3() {
+        window.location.href = "/3.html";
+      }
+      function navigateToNewTab4() {
+        window.open("/4.html");
+      }
+      function navigateToDataPath(element) {
+        const url = element.getAttribute("data-path");
+        if (url) {
+          window.location.href = url;
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Website for PurpleA11y functional testing [Test for "strategy" flag in cli command]</h1>
+    </header>
+    <br>
+
+    <table border="1">
+        <tr>
+          <th>Overview of this website</th>
+        </tr>
+        <tr>
+          <td>Home page</td>
+        </tr>
+        <tr>
+          <td>Pages /1.html to /5.html</td>
+        </tr>
+        <tr>
+          <td>Sitemaps in /sitemap followed by .xml, .rss, .atom</td>
+        </tr>
+      </table>
+
+    <main>
+      
+      <h2><u>Anchor tags</u></h2>
+      <div style="display: flex; flex-direction: column;">
+        </a>
+        <a id="anchor-tag-with-href" href="/1.html" role="link">
+            Anchor tag with href to page 1
+        </a>
+        <a id="anchor-tag-with-href" href="/2.html" role="link">
+            Anchor tag with href to page 2
+        </a>
+        <a id="anchor-tag-with-href" href="/3.html" role="link">
+            Anchor tag with href to page 3
+        </a>
+        <a id="anchor-tag-with-href" href="/4.html" role="link">
+            Anchor tag with href to page 4
+        </a>
+        <a id="anchor-tag-with-href" href="/5.html" role="link">
+            Anchor tag with href to page 5
+        </a>
+    </div>
+    
+
+      
+    </div>
+
+      
+    </main>
+   
+    <footer>
+        
+      </footer>
+  </body>
+</html>
